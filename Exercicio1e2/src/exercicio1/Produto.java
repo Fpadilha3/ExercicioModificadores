@@ -3,8 +3,8 @@ package exercicio1;
 
 
 public class Produto {
-    
-    
+   
+
     private String nome;
     private double preco;
 
@@ -24,9 +24,7 @@ public class Produto {
         if (preco >= 0) {
             this.preco = preco;
         } else {
-            System.out.println("Preço inválido!");
+            System.out.println("Erro: preço não pode ser negativo!");
         }
     }
 }
-    
-
